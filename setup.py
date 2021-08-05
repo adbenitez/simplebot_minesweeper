@@ -21,7 +21,7 @@ def load_requirements(path: str) -> list:
 
 if __name__ == "__main__":
     MODULE_NAME = "simplebot_minesweeper"
-    DESC = "A plugin for SimpleBot, a Delta Chat(http://delta.chat/) bot"
+    DESC = "A Minesweeper game for Delta Chat (SimpleBot plugin)"
 
     with open("README.rst") as fh:
         long_description = fh.read()
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         author="adbenitez",
         author_email="adbenitez@nauta.cu",
         url=f"https://github.com/adbenitez/{MODULE_NAME}",
-        keywords="simplebot plugin deltachat",
+        keywords="simplebot plugin deltachat minesweeper game",
         license="MPL",
         classifiers=[
             "Development Status :: 3 - Alpha",
